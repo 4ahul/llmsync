@@ -1,0 +1,7 @@
+include README.md
+include LICENSE
+recursive-include alembic *.py *.ini *.mako
+recursive-include llmsync *.py
+recursive-exclude tests *
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
